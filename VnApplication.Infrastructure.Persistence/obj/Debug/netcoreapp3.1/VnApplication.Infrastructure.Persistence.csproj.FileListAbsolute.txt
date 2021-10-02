@@ -1,0 +1,15 @@
+D:\VnApplication\VnApplication.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.deps.json
+D:\VnApplication\VnApplication.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.dll
+D:\VnApplication\VnApplication.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.pdb
+D:\VnApplication\VnApplication.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\VnApplication.Application.dll
+D:\VnApplication\VnApplication.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\VnApplication.Domain.dll
+D:\VnApplication\VnApplication.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\VnApplication.Application.pdb
+D:\VnApplication\VnApplication.Infrastructure.Persistence\bin\Debug\netcoreapp3.1\VnApplication.Domain.pdb
+D:\VnApplication\VnApplication.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.csproj.AssemblyReference.cache
+D:\VnApplication\VnApplication.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\VnApplication\VnApplication.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.AssemblyInfoInputs.cache
+D:\VnApplication\VnApplication.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.AssemblyInfo.cs
+D:\VnApplication\VnApplication.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+D:\VnApplication\VnApplication.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.csproj.CopyComplete
+D:\VnApplication\VnApplication.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.dll
+D:\VnApplication\VnApplication.Infrastructure.Persistence\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Persistence.pdb

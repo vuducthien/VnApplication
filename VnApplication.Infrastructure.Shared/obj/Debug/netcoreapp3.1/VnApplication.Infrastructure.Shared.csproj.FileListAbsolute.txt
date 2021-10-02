@@ -1,0 +1,15 @@
+D:\VnApplication\VnApplication.Infrastructure.Shared\bin\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.deps.json
+D:\VnApplication\VnApplication.Infrastructure.Shared\bin\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.dll
+D:\VnApplication\VnApplication.Infrastructure.Shared\bin\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.pdb
+D:\VnApplication\VnApplication.Infrastructure.Shared\bin\Debug\netcoreapp3.1\VnApplication.Application.dll
+D:\VnApplication\VnApplication.Infrastructure.Shared\bin\Debug\netcoreapp3.1\VnApplication.Domain.dll
+D:\VnApplication\VnApplication.Infrastructure.Shared\bin\Debug\netcoreapp3.1\VnApplication.Application.pdb
+D:\VnApplication\VnApplication.Infrastructure.Shared\bin\Debug\netcoreapp3.1\VnApplication.Domain.pdb
+D:\VnApplication\VnApplication.Infrastructure.Shared\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.csproj.AssemblyReference.cache
+D:\VnApplication\VnApplication.Infrastructure.Shared\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\VnApplication\VnApplication.Infrastructure.Shared\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.AssemblyInfoInputs.cache
+D:\VnApplication\VnApplication.Infrastructure.Shared\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.AssemblyInfo.cs
+D:\VnApplication\VnApplication.Infrastructure.Shared\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.csproj.CoreCompileInputs.cache
+D:\VnApplication\VnApplication.Infrastructure.Shared\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.csproj.CopyComplete
+D:\VnApplication\VnApplication.Infrastructure.Shared\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.dll
+D:\VnApplication\VnApplication.Infrastructure.Shared\obj\Debug\netcoreapp3.1\VnApplication.Infrastructure.Shared.pdb

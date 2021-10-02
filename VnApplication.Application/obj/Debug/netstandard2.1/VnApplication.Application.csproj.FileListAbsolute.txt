@@ -1,0 +1,13 @@
+D:\VnApplication\VnApplication.Application\bin\Debug\netstandard2.1\VnApplication.Application.deps.json
+D:\VnApplication\VnApplication.Application\bin\Debug\netstandard2.1\VnApplication.Application.dll
+D:\VnApplication\VnApplication.Application\bin\Debug\netstandard2.1\VnApplication.Application.pdb
+D:\VnApplication\VnApplication.Application\bin\Debug\netstandard2.1\VnApplication.Domain.dll
+D:\VnApplication\VnApplication.Application\bin\Debug\netstandard2.1\VnApplication.Domain.pdb
+D:\VnApplication\VnApplication.Application\obj\Debug\netstandard2.1\VnApplication.Application.csproj.AssemblyReference.cache
+D:\VnApplication\VnApplication.Application\obj\Debug\netstandard2.1\VnApplication.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\VnApplication\VnApplication.Application\obj\Debug\netstandard2.1\VnApplication.Application.AssemblyInfoInputs.cache
+D:\VnApplication\VnApplication.Application\obj\Debug\netstandard2.1\VnApplication.Application.AssemblyInfo.cs
+D:\VnApplication\VnApplication.Application\obj\Debug\netstandard2.1\VnApplication.Application.csproj.CoreCompileInputs.cache
+D:\VnApplication\VnApplication.Application\obj\Debug\netstandard2.1\VnApplication.Application.csproj.CopyComplete
+D:\VnApplication\VnApplication.Application\obj\Debug\netstandard2.1\VnApplication.Application.dll
+D:\VnApplication\VnApplication.Application\obj\Debug\netstandard2.1\VnApplication.Application.pdb

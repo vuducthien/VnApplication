@@ -1,0 +1,545 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\VnApplication\\VnApplication.WebApi\\VnApplication.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj",
+        "projectName": "VnApplication.Application",
+        "projectPath": "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\VnApplication\\VnApplication.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\VnApplication\\VnApplication.Domain\\VnApplication.Domain.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Domain\\VnApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VnApplication\\VnApplication.Domain\\VnApplication.Domain.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\VnApplication\\VnApplication.Domain\\VnApplication.Domain.csproj",
+        "projectName": "VnApplication.Domain",
+        "projectPath": "D:\\VnApplication\\VnApplication.Domain\\VnApplication.Domain.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\VnApplication\\VnApplication.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VnApplication\\VnApplication.Infrastructure.Identity\\VnApplication.Infrastructure.Identity.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\VnApplication\\VnApplication.Infrastructure.Identity\\VnApplication.Infrastructure.Identity.csproj",
+        "projectName": "VnApplication.Infrastructure.Identity",
+        "projectPath": "D:\\VnApplication\\VnApplication.Infrastructure.Identity\\VnApplication.Infrastructure.Identity.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\VnApplication\\VnApplication.Infrastructure.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "microsoft.extensions.dependencyinjection": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VnApplication\\VnApplication.Infrastructure.Persistence\\VnApplication.Infrastructure.Persistence.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\VnApplication\\VnApplication.Infrastructure.Persistence\\VnApplication.Infrastructure.Persistence.csproj",
+        "projectName": "VnApplication.Infrastructure.Persistence",
+        "projectPath": "D:\\VnApplication\\VnApplication.Infrastructure.Persistence\\VnApplication.Infrastructure.Persistence.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\VnApplication\\VnApplication.Infrastructure.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj"
+              },
+              "D:\\VnApplication\\VnApplication.Domain\\VnApplication.Domain.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Domain\\VnApplication.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VnApplication\\VnApplication.Infrastructure.Shared\\VnApplication.Infrastructure.Shared.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\VnApplication\\VnApplication.Infrastructure.Shared\\VnApplication.Infrastructure.Shared.csproj",
+        "projectName": "VnApplication.Infrastructure.Shared",
+        "projectPath": "D:\\VnApplication\\VnApplication.Infrastructure.Shared\\VnApplication.Infrastructure.Shared.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\VnApplication\\VnApplication.Infrastructure.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\VnApplication\\VnApplication.WebApi\\VnApplication.WebApi.csproj": {
+      "version": "1.1.0",
+      "restore": {
+        "projectUniqueName": "D:\\VnApplication\\VnApplication.WebApi\\VnApplication.WebApi.csproj",
+        "projectName": "VnApplication.WebApi",
+        "projectPath": "D:\\VnApplication\\VnApplication.WebApi\\VnApplication.WebApi.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\VnApplication\\VnApplication.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Application\\VnApplication.Application.csproj"
+              },
+              "D:\\VnApplication\\VnApplication.Infrastructure.Identity\\VnApplication.Infrastructure.Identity.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Infrastructure.Identity\\VnApplication.Infrastructure.Identity.csproj"
+              },
+              "D:\\VnApplication\\VnApplication.Infrastructure.Persistence\\VnApplication.Infrastructure.Persistence.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Infrastructure.Persistence\\VnApplication.Infrastructure.Persistence.csproj"
+              },
+              "D:\\VnApplication\\VnApplication.Infrastructure.Shared\\VnApplication.Infrastructure.Shared.csproj": {
+                "projectPath": "D:\\VnApplication\\VnApplication.Infrastructure.Shared\\VnApplication.Infrastructure.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.6.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

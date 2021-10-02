@@ -1,0 +1,10 @@
+D:\VnApplication\VnApplication.Domain\bin\Debug\netstandard2.1\VnApplication.Domain.deps.json
+D:\VnApplication\VnApplication.Domain\bin\Debug\netstandard2.1\VnApplication.Domain.dll
+D:\VnApplication\VnApplication.Domain\bin\Debug\netstandard2.1\VnApplication.Domain.pdb
+D:\VnApplication\VnApplication.Domain\obj\Debug\netstandard2.1\VnApplication.Domain.csproj.AssemblyReference.cache
+D:\VnApplication\VnApplication.Domain\obj\Debug\netstandard2.1\VnApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\VnApplication\VnApplication.Domain\obj\Debug\netstandard2.1\VnApplication.Domain.AssemblyInfoInputs.cache
+D:\VnApplication\VnApplication.Domain\obj\Debug\netstandard2.1\VnApplication.Domain.AssemblyInfo.cs
+D:\VnApplication\VnApplication.Domain\obj\Debug\netstandard2.1\VnApplication.Domain.csproj.CoreCompileInputs.cache
+D:\VnApplication\VnApplication.Domain\obj\Debug\netstandard2.1\VnApplication.Domain.dll
+D:\VnApplication\VnApplication.Domain\obj\Debug\netstandard2.1\VnApplication.Domain.pdb
