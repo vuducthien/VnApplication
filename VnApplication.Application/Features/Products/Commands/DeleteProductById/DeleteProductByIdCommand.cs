@@ -10,22 +10,22 @@ using VnApplication.Application.Wrappers;
 
 namespace VnApplication.Application.Features.Products.Commands.DeleteProductById
 {
-    public class DeleteProductByIdCommand : IRequest<Response<int>>
+    public class DeleteProductByIdCommand : IRequest<Response<Guid>>
     {
-        public int Id { get; set; }
-        public class DeleteProductByIdCommandHandler : IRequestHandler<DeleteProductByIdCommand, Response<int>>
+        public Guid Id { get; set; }
+        public class DeleteProductByIdCommandHandler : IRequestHandler<DeleteProductByIdCommand, Response<Guid>>
         {
             private readonly IProductRepositoryAsync _productRepository;
             public DeleteProductByIdCommandHandler(IProductRepositoryAsync productRepository)
             {
                 _productRepository = productRepository;
             }
-            public async Task<Response<int>> Handle(DeleteProductByIdCommand command, CancellationToken cancellationToken)
+            public async Task<Response<Guid>> Handle(DeleteProductByIdCommand command, CancellationToken cancellationToken)
             {
                 var product = await _productRepository.GetByIdAsync(command.Id);
                 if (product == null) throw new ApiException($"Product Not Found.");
                 await _productRepository.DeleteAsync(product);
-                return new Response<int>(product.Id);
+                return new Response<Guid>(product.Id);
             }
         }
     }

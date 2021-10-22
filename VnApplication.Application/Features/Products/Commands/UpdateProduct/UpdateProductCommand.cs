@@ -10,20 +10,20 @@ using VnApplication.Application.Wrappers;
 
 namespace VnApplication.Application.Features.Products.Commands.UpdateProduct
 {
-    public class UpdateProductCommand : IRequest<Response<int>>
+    public class UpdateProductCommand : IRequest<Response<Guid>>
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public decimal Rate { get; set; }
-        public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, Response<int>>
+        public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand, Response<Guid>>
         {
             private readonly IProductRepositoryAsync _productRepository;
             public UpdateProductCommandHandler(IProductRepositoryAsync productRepository)
             {
                 _productRepository = productRepository;
             }
-            public async Task<Response<int>> Handle(UpdateProductCommand command, CancellationToken cancellationToken)
+            public async Task<Response<Guid>> Handle(UpdateProductCommand command, CancellationToken cancellationToken)
             {
                 var product = await _productRepository.GetByIdAsync(command.Id);
 
@@ -37,7 +37,7 @@ namespace VnApplication.Application.Features.Products.Commands.UpdateProduct
                     product.Rate = command.Rate;
                     product.Description = command.Description;
                     await _productRepository.UpdateAsync(product);
-                    return new Response<int>(product.Id);
+                    return new Response<Guid>(product.Id);
                 }
             }
         }
